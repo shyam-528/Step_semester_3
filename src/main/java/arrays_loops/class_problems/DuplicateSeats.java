@@ -1,0 +1,74 @@
+package arrays_loops.class_problems;
+
+/**
+ * DuplicateSeats
+ *
+ * Week 3 Assessment - Problem 1: The Exam Hall Seat Duplication Checker.
+ *
+ * Scans an int array of assigned seat numbers and flags any value assigned
+ * to more than one student, using only arrays and nested loops (no
+ * Collections), before an exam begins.
+ *
+ * Suggested method signature: void checkDuplicateSeats(int[] seatNumbers)
+ */
+public class DuplicateSeats {
+
+    /**
+     * Compares every seat number against every other using nested loops and
+     * prints each duplicated value once. Prints a confirmation when none are
+     * found.
+     */
+    public static void checkDuplicateSeats(int[] seatNumbers) {
+        if (seatNumbers == null || seatNumbers.length < 2) {
+            System.out.println("No Duplicate Seats Found");
+            return;
+        }
+
+        boolean anyDuplicate = false;
+        boolean[] alreadyReported = new boolean[seatNumbers.length];
+
+        for (int i = 0; i < seatNumbers.length; i++) {
+            if (alreadyReported[i]) {
+                continue;
+            }
+            for (int j = i + 1; j < seatNumbers.length; j++) {
+                if (seatNumbers[i] == seatNumbers[j]) {
+                    if (!alreadyReported[i]) {
+                        System.out.println("Duplicate Seat Number Found: " + seatNumbers[i]);
+                    }
+                    alreadyReported[j] = true;
+                    alreadyReported[i] = true;
+                    anyDuplicate = true;
+                }
+            }
+        }
+
+        if (!anyDuplicate) {
+            System.out.println("No Duplicate Seats Found");
+        }
+    }
+
+    private static String arrToString(int[] a) {
+        StringBuilder sb = new StringBuilder("{");
+        for (int i = 0; i < a.length; i++) {
+            sb.append(a[i]);
+            if (i < a.length - 1) {
+                sb.append(", ");
+            }
+        }
+        return sb.append("}").toString();
+    }
+
+    public static void main(String[] args) {
+        int[][] testCases = {
+            {101, 102, 103, 102, 105},
+            {101, 102, 103, 104, 105},
+            {7, 7, 7, 7},
+            {1, 2, 3, 2, 4, 3}
+        };
+        for (int[] t : testCases) {
+            System.out.print("Input: " + arrToString(t) + "  =>  ");
+            checkDuplicateSeats(t);
+        }
+    }
+}

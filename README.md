@@ -6,6 +6,26 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 29-08-2026 (Session 3)
+**Today's Work:**
+- Created the `feature/session_3` branch from `develop` for the Arrays, Loops & String Traversal topic (`arrays_loops/`).
+- Added 5 Week 3 class-problem solutions under `src/main/java/arrays_loops/class_problems/`:
+  - `DuplicateSeats`      – Exam Hall Seat Duplication Checker (`checkDuplicateSeats`).
+  - `TypingAccuracy`      – Typing Speed Test Accuracy Checker (`checkTypingAccuracy`).
+  - `TrafficSignalStreak` – Traffic Signal Streak Analyzer (`findLongestStreak`).
+  - `InventoryBalancer`   – Warehouse Inventory Balancer (`analyzeInventory`).
+  - `WordLengthProfiler`  – Movie Review Word Length Profiler (`classifyWordLengths`).
+- Verified all five solutions compile under `javac 26.0.2` and match the given sample input/output.
+
+**Next Session Plan:**
+- Add more array/loop/string class problems (rotation, frequency, substring, etc.).
+- Pick up take-home assignments from the `assigment_problems/` folder.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 29-08-2026
 **Today's Work:**
 - Initialized the `Step_semester_3` repository on GitHub.
