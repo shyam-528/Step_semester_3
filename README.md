@@ -6,19 +6,19 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
-## Date: 29-08-2026 (Session 5)
+## Date: 29-08-2026 (Session 5 - Week 5 Assessment)
 **Today's Work:**
-- Created the `feature/session_5` branch from `develop` for the LeetCode Practice - Functions & Arrays, Category C (Advanced) topic (`functions_arrays/`).
-- Added 5 advanced Category C class-problem solutions under `src/main/java/functions_arrays/class_problems/`:
-  - `ProductExceptSelf`       - product of all elements except each index, two-pass, no division (`productExceptSelf`).
-  - `MaximumSubarray`         - largest contiguous subarray sum via Kadane's algorithm (`maxSubArray`).
-  - `ThreeSum`                - all unique triplets summing to zero (sort + two pointers) (`threeSum`).
-  - `SubarraySumEqualsK`      - count subarrays summing to k via prefix sums + hash map (`subarraySum`).
-  - `FindMinRotatedSortedArray` - minimum of a rotated sorted array, O(log n) binary search (`findMin`).
-- Verified all five solutions compile under `javac 26.0.2` and match every sample input/output.
+- Completed the Session 5 assessment: implemented all 5 problems in `feature/session_5` under `src/main/java/functions_arrays/class_problems/`:
+  1. `ProductExceptSelf.java` — product of all elements except each index in O(n) via a forward (prefix) and backward (suffix) pass, with no division (handles zeros).
+  2. `MaximumSubarray.java` — largest contiguous subarray sum using Kadane's algorithm (handles all-negative arrays).
+  3. `ThreeSum.java` — all unique triplets summing to zero via sort + two pointers with duplicate skipping.
+  4. `SubarraySumEqualsK.java` — counts subarrays summing to k using prefix sums + a hash map of prefix frequencies (works with negatives).
+  5. `FindMinRotatedSortedArray.java` — minimum of a rotated sorted array via modified binary search in O(log n).
+- All 5 programs compiled with `javac` and verified against the sample inputs/outputs from the assignment.
+- Updated the `functions_arrays/README.md` topic index to list the Session 5 programs.
 
 **Next Session Plan:**
-- Continue with further LeetCode Category topics (strings, DP, two-pointers).
+- Continue with further LeetCode Category topics (strings, two-pointers, DP).
 - Pick up take-home assignments from the `assigment_problems/` folder.
 
 **Issues Faced:**
