@@ -6,20 +6,20 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
-## Date: 29-08-2026 (Session 4)
+## Date: 29-08-2026 (Session 4 - Week 4 Assessment)
 **Today's Work:**
-- Created the `feature/session_4` branch from `develop` for the LeetCode Practice - Functions & Arrays (Category C) topic (`functions_arrays/`).
-- Added 5 Category C class-problem solutions under `src/main/java/functions_arrays/class_problems/`:
-  - `TwoSum`                 - find the two indices summing to a target (`twoSum`).
-  - `BestTimeToBuySellStock` - single-pass max stock profit (`maxProfit`).
-  - `ContainsDuplicate`      - detect any duplicate value (`containsDuplicate`).
-  - `MergeSortedArrays`      - merge two sorted arrays with two pointers (`mergeSortedArrays`).
-  - `RotateArray`            - rotate array right by k with modulo indexing (`rotateArray`).
-- Verified all five solutions compile under `javac 26.0.2` and match every sample input/output.
+- Completed the Session 4 assessment: implemented all 5 problems in `feature/session_4` under `src/main/java/functions_arrays/class_problems/`:
+  1. `TwoSum.java` — finds the two indices whose values sum to a target using nested loops.
+  2. `BestTimeToBuySellStock.java` — single-pass maximum profit from daily stock prices (0 if prices only fall).
+  3. `ContainsDuplicate.java` — returns `true` if any value appears at two different positions.
+  4. `MergeSortedArrays.java` — merges two sorted arrays into one sorted result with a two-pointer while loop.
+  5. `RotateArray.java` — rotates an array right by `k` positions using modulo (wraparound) indexing.
+- All 5 programs compiled with `javac` and verified against the sample inputs/outputs from the assignment.
+- Updated the `functions_arrays/README.md` topic index to list the Session 4 programs.
 
 **Next Session Plan:**
-- Continue with further LeetCode Category topics (extra array problems, e.g. moving zeros, missing number).
-- Pick up take-home assignments from the `assigment_problems/` folder.
+- Proceed to the advanced Category C problems on a new `feature/session_5` branch created from `develop`.
+- Continue the `functions_arrays/` topic with prefix/suffix, Kadane's, 3Sum, and binary search problems.
 
 **Issues Faced:**
 - None
