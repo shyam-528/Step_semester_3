@@ -6,7 +6,27 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 29-08-2026 (Week 1 Assessment)
+**Today's Work:**
+- Completed the Week 1 assessment: implemented all 5 problems in `feature/session_1` under `src/main/java/strings_arrays/class_problems/`:
+  1. `RockPaperScissors.java` — 5-round RPS simulator with per-round results and final scoreboard (Wins / Losses / Draws / Win %).
+  2. `PalindromeChecker.java` — three independent palindrome checks (iterative, recursive, array-reversal) that always agree.
+  3. `BmiCalculator.java` — BMI for a 10-person team with Underweight / Normal / Overweight / Obese classification and a clean report table.
+  4. `FirstNonRepeatingChar.java` — returns the first character with frequency 1, or reports none.
+  5. `ReverseCustomerName.java` — returns a reversed copy of a customer's name without mutating the original.
+- All 5 programs compiled with `javac` and verified against the sample inputs/outputs from the assignment.
+- Updated the `strings_arrays/README.md` topic index to list the Week 1 programs.
+
+**Next Session Plan:**
+- Begin Week 2 / Session 2 work on a new `feature/session_2` branch created from `develop`.
+- Pick the next topic folder (e.g. `recursion/` or `oop/`) and add the new class problems there.
+
+**Issues Faced:**
+- None
+---
+
 ## Date: 29-08-2026
+**Today's Work:**
 **Today's Work:**
 - Initialized the `Step_semester_3` repository on GitHub.
 - Created the three required branches: `main`, `develop`, and `feature/session_1`.
