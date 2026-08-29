@@ -6,6 +6,26 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 29-08-2026 (Session 4)
+**Today's Work:**
+- Created the `feature/session_4` branch from `develop` for the LeetCode Practice - Functions & Arrays (Category C) topic (`functions_arrays/`).
+- Added 5 Category C class-problem solutions under `src/main/java/functions_arrays/class_problems/`:
+  - `TwoSum`                 - find the two indices summing to a target (`twoSum`).
+  - `BestTimeToBuySellStock` - single-pass max stock profit (`maxProfit`).
+  - `ContainsDuplicate`      - detect any duplicate value (`containsDuplicate`).
+  - `MergeSortedArrays`      - merge two sorted arrays with two pointers (`mergeSortedArrays`).
+  - `RotateArray`            - rotate array right by k with modulo indexing (`rotateArray`).
+- Verified all five solutions compile under `javac 26.0.2` and match every sample input/output.
+
+**Next Session Plan:**
+- Continue with further LeetCode Category topics (extra array problems, e.g. moving zeros, missing number).
+- Pick up take-home assignments from the `assigment_problems/` folder.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 29-08-2026
 **Today's Work:**
 - Initialized the `Step_semester_3` repository on GitHub.
