@@ -6,6 +6,26 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 29-08-2026 (Session 5)
+**Today's Work:**
+- Created the `feature/session_5` branch from `develop` for the LeetCode Practice - Functions & Arrays, Category C (Advanced) topic (`functions_arrays/`).
+- Added 5 advanced Category C class-problem solutions under `src/main/java/functions_arrays/class_problems/`:
+  - `ProductExceptSelf`       - product of all elements except each index, two-pass, no division (`productExceptSelf`).
+  - `MaximumSubarray`         - largest contiguous subarray sum via Kadane's algorithm (`maxSubArray`).
+  - `ThreeSum`                - all unique triplets summing to zero (sort + two pointers) (`threeSum`).
+  - `SubarraySumEqualsK`      - count subarrays summing to k via prefix sums + hash map (`subarraySum`).
+  - `FindMinRotatedSortedArray` - minimum of a rotated sorted array, O(log n) binary search (`findMin`).
+- Verified all five solutions compile under `javac 26.0.2` and match every sample input/output.
+
+**Next Session Plan:**
+- Continue with further LeetCode Category topics (strings, DP, two-pointers).
+- Pick up take-home assignments from the `assigment_problems/` folder.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 29-08-2026
 **Today's Work:**
 - Initialized the `Step_semester_3` repository on GitHub.
