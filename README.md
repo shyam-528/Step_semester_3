@@ -2,6 +2,10 @@
 
 Daily progress log for STEP (Semester 3) lab sessions.
 
+> **Note for graders:** All Java source code lives on the `feature/session_<n>` branches,
+> not on `main`. Switch branches via the dropdown above the file list
+> (e.g. `feature/session_1`).
+
 Each entry below is added in reverse-chronological order (newest first).
 
 ---
@@ -26,7 +30,6 @@ Each entry below is added in reverse-chronological order (newest first).
 ---
 
 ## Date: 29-08-2026
-**Today's Work:**
 **Today's Work:**
 - Initialized the `Step_semester_3` repository on GitHub.
 - Created the three required branches: `main`, `develop`, and `feature/session_1`.
