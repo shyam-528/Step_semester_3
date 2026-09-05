@@ -6,7 +6,7 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
-## Date: 29-08-2026 (Session 6 - Week 6 Assessment)
+## Date: 05-09-2026 (Session 6 - Week 6 Assessment)
 **Today's Work:**
 - Completed the Session 6 assessment: implemented all 5 problems in `feature/session_6` under `src/main/java/arrays_methods/class_problems/`:
   1. `HackathonScoreBooster.java` — boosts every score in place (no return value), printed with `Arrays.toString(...)`.
