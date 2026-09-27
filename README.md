@@ -10,6 +10,25 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 27-09-2026 (Session 7 - OOP Basics)
+**Today's Work:**
+- Completed Session 7 Category C set: implemented all 5 problems in `feature/session_7` under `src/main/java/oops/class_problems/`:
+  1. `PlacementRecord.java` — OOP placement record with constructor + `printRecord()` printing `Name -> Company @ LPA`; demoed 3 records in an array loop.
+  2. `MessWallet.java` — encapsulated mess wallet with private balance, guarded `topUp(double)` / `deduct(double)` and read-only `getBalance()`; never goes negative.
+  3. `Course.java` — theory vs lab courses via `this(...)` constructor chaining; `totalCredits()` returns credits + labCredits.
+  4. `IdCard.java` — reference aliasing vs identity demo (`duplicate == ravi: true`, `separate == ravi: false`).
+  5. `Student.java` — shared college state via static `collegeName` / `studentCount` and `Student.printCollegeInfo()`.
+- All 5 programs compiled with `javac` and verified against the sample inputs/outputs from the assignment.
+- Updated the `oops/README.md` topic index to list the Session 7 programs.
+
+**Next Session Plan:**
+- Continue with the next Category C problem set.
+- Pick up take-home assignments from the `assigment_problems/` folder.
+
+**Issues Faced:**
+- None
+---
+
 ## Date: 05-09-2026 (Session 6 - Week 6 Assessment)
 **Today's Work:**
 - Completed the Session 6 assessment: implemented all 5 problems in `feature/session_6` under `src/main/java/arrays_methods/class_problems/`:
