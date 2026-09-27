@@ -10,6 +10,28 @@ Each entry below is added in reverse-chronological order (newest first).
 
 ---
 
+## Date: 27-09-2026 (Session 8 - Abstraction, Interface, Class vs Interface)
+**Today's Work:**
+- Completed Session 8 Category C concept set in `feature/session_8` under `src/main/java/abstraction/class_problems/`:
+  1. `Device.java` — abstract base with shared state/code + abstract `performPrimaryAction()`; never instantiated directly.
+  2. `Remoteable.java` / `Schedulable.java` / `EnergyMonitorable.java` — pure capability contracts adoptable by any class.
+  3. `SmartLight.java` — IS-A Device + CAN-DO Remoteable, Schedulable.
+  4. `SmartThermostat.java` — extends ONE class, implements THREE interfaces (multiple inheritance of capability).
+  5. `BasicLamp.java` — IS-A Device with no interfaces: full identity, zero extra capabilities.
+  6. `SmartDoorLock.java` — Remoteable without being a Device; works in `Remoteable[]`.
+  7. `HomeHubLogger.java` — plain class for the no-variation case.
+  8. `SmartHomeDemo.java` — wrap-up program reproducing the PDF p9 output, including `connectAllToApp(Remoteable[], appId)`.
+- All programs compiled with `javac` and verified against the sample outputs from the document.
+- Updated the `abstraction/README.md` topic index to list the Session 8 programs.
+
+**Next Session Plan:**
+- Continue with the next Category C problem set.
+- Pick up take-home assignments from the `assigment_problems/` folder.
+
+**Issues Faced:**
+- None
+---
+
 ## Date: 27-09-2026 (Session 7 - OOP Basics)
 **Today's Work:**
 - Completed Session 7 Category C set: implemented all 5 problems in `feature/session_7` under `src/main/java/oops/class_problems/`:
